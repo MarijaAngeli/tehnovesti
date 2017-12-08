@@ -26,15 +26,15 @@
 				</div>
 				<div class="form-group">
 					<label for="facebook">Facebook Profile</label>
-					<input type="text" name="facebook" value="{{$user->profile->facebook}}" class="form-control">
+					<input type="text" name="facebook" value="{{$user->profile['facebook']}}" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="youtube">Youtube Profile</label>
-					<input type="text" name="youtube"  value="{{$user->profile->youtube}}" class="form-control">
+					<input type="text" name="youtube"  value="{{$user->profile['youtube']}}" class="form-control">
 				</div>
 				<div class="form-group">
 					<label for="about">About You</label>
-					<textarea class="form-control" id="about" name="about" rows="6" cols="6">{{$user->profile->about}}</textarea>
+					<textarea class="form-control" id="about" name="about" rows="6" cols="6">{{$user->profile['about']}}</textarea>
 				</div>
 				<div class="form-group">
 					<div class="text-center">

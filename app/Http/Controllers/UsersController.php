@@ -53,6 +53,7 @@ class UsersController extends Controller
         $profile = Profile::create([
             'user_id' => $user->id,
             'avatar' => 'uploads/avatars/dancer-1904467_640.png'
+
         ]);
         Session::flash('success','User created successfully');
         return redirect()->route('users');

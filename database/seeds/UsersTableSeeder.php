@@ -21,8 +21,8 @@ class UsersTableSeeder extends Seeder
             'user_id' => $user->id,
             'avatar' => 'uploads/avatars/dancer-1904467_640.png',
             'about' => 'Returns an array of strings, each of which is a substring of string formed by splitting it on boundaries formed by the string delimiter.',
-            'facebook' => 'facebook.com',
-            'youtube' => 'youtube.com'
+            'facebook' => 'http://www.facebook.com',
+            'youtube' => 'http://www.youtube.com'
         ]);
     }
 }
