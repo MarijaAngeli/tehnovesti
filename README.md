@@ -1,3 +1,3 @@
 # tehnovesti
-Complete Blogging-Content Management System
+Complete Blogging-Content Management System. 
 Some features of this CMS are: Posts (CRUD), Post categories(CRUD), Post tags(CRUD), Trashing posts, Multiple users and multiple role support, Social media post sharing, Blog search, Disqus commenting system, Summernote - WYSIWYG Editor...
